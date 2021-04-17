@@ -1,0 +1,88 @@
+.error-message {
+  background-image: linear-gradient(to bottom, #fbc2eb 0%, #a6c1ee 100%);
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0.8rem;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.heading {
+  border: 1px solid lightcoral;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 1rem;
+  width: 50%;
+  margin: 40px auto;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .heading {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    width: 70%;
+  }
+}
+
+.ingredient {
+  border: 1px solid #a6c1ee;
+  border-radius: 10px;
+  padding: 0.8rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.weight {
+  font-size: 0.9rem;
+}
+
+.daily-value-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.daily-value {
+  font-size: 0.7rem;
+  text-align: right;
+  padding: 0;
+  margin-right: 3.3rem;
+  position: relative;
+  top: 0.6rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .daily-value {
+    margin-right: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .text-to-hide {
+    display: none;
+  }
+}
+
+.total-nutrients {
+  border: 1px solid #a6c1ee;
+}
+.total-daily {
+  border: 1px solid #fbc2eb;
+}
+
+table {
+  margin-bottom: 1.5rem;
+}

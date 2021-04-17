@@ -1,0 +1,26 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  flex-shrink: 0;
+  margin-top: 20vh;
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer {
+    width: 95%;
+  }
+}

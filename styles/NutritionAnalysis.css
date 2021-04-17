@@ -1,0 +1,97 @@
+.instructions-container {
+  position: absolute;
+  width: 25%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.instructions {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  flex: 1 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.app-title-container {
+  margin: 0;
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.app-title {
+  color: white;
+  width: 50%;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  border: 1px solid white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  padding: 1rem;
+  background-image: linear-gradient(to bottom, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.search-form {
+  margin: 8vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.2);
+  /* width: 90%; */
+}
+
+.search-bar {
+  width: 40%;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: Ubuntu, "Font Awesome 5 Free";
+}
+
+.search-button {
+  background: lightcoral;
+  border: none;
+  padding: 0.7rem 1rem;
+  color: white;
+  margin-left: 1vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+td {
+  border-radius: 20px;
+  padding: 0.7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+table {
+  border-spacing: 1.2rem;
+}
