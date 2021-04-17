@@ -10,4 +10,4 @@ Hope you enjoy!
 
 ## License
 
-Jacopo Bacci
+Jacopo Bacci --- Made with Next JS
